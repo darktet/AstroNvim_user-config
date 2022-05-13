@@ -29,12 +29,6 @@ local config = {
   plugins = {
     -- Add plugins, the packer syntax without the "use"
 
-    { "navarasu/onedark.nvim" },
-    -- { "p00f/godbolt.nvim" },
-    { "sbdchd/neoformat" },
-    { "p00f/clangd_extensions.nvim" },
-    { "folke/tokyonight.nvim" },
-    -- { "darktet/vimdiscord" },
     init = {
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },

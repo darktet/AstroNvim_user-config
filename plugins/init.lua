@@ -1,9 +1,9 @@
 return {
   { "navarasu/onedark.nvim" },
-  -- { "p00f/godbolt.nvim" },
   { "sbdchd/neoformat" },
-  { "p00f/clangd_extensions.nvim" },
   { "folke/tokyonight.nvim" },
+  -- { "p00f/clangd_extensions.nvim" },
+  -- { "p00f/godbolt.nvim" },
   -- { "darktet/vimdiscord" },
 }
 
