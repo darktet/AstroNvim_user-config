@@ -33,6 +33,7 @@ local config = {
     -- { "p00f/godbolt.nvim" },
     { "sbdchd/neoformat" },
     { "p00f/clangd_extensions.nvim" },
+    { "folke/tokyonight.nvim" },
     -- { "darktet/vimdiscord" },
     init = {
       -- You can disable default plugins as follows:
