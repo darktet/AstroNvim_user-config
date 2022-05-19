@@ -178,7 +178,7 @@ local config = {
     local set = vim.opt
     -- Set options
     set.relativenumber = true
-    set.guifont = "monospace:h9"                -- the font used in graphical neovim applications
+    set.guifont = "FuraMono Nerd Font:h9"                -- the font used in graphical neovim applications
     vim.cmd 'let g:neovide_refresh_rate=60'
     vim.cmd 'let g:neovide_cursor_vfx_mode = "railgun"'
     vim.cmd 'let g:neovide_cursor_trail_length=0.02'
