@@ -53,6 +53,12 @@ local config = {
     packer = {
       compile_path = vim.fn.stdpath "config" .. "/lua/packer_compiled.lua",
     },
+    ['s1n7ax/nvim-window-picker'] = {
+      tag = 'v1.*',
+      config = function()
+        require'window-picker'.setup()
+      end,
+    },
   },
 
   -- LuaSnip Options
