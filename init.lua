@@ -184,12 +184,13 @@ local config = {
     local set = vim.opt
     -- Set options
     set.relativenumber = true
-    set.guifont = "FuraMono Nerd Font:h9"                -- the font used in graphical neovim applications
-    vim.cmd 'let g:neovide_refresh_rate=60'
-    vim.cmd 'let g:neovide_cursor_vfx_mode = "railgun"'
-    vim.cmd 'let g:neovide_cursor_trail_length=0.02'
-    vim.cmd 'let g:neovide_cursor_animation_length=0.03'
-    vim.cmd 'let g:neovide_cursor_antialiasing=v:true'
+    set.laststatus = 2
+    set.guifont = "FiraCode Nerd Font Mono:h9"                -- the font used in graphical neovim applications
+    vim.g.neovide_refresh_rate=60
+    vim.g.neovide_cursor_vfx_mode = "railgun"
+    vim.g.neovide_cursor_trail_length=0.02
+    vim.g.neovide_cursor_animation_length=0.03
+    vim.g.neovide_cursor_antialiasing='v:true'
 
     -- Set key bindings
     map("n", "<C-s>", ":w!<CR>")
